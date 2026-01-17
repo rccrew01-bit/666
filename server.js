@@ -117,6 +117,6 @@ app.get("/api/rooms", (req, res) => {
 server.listen(3000, () => {
   console.log("🚀 Serveur actif sur http://127.0.0.1:3000");
   console.log("🎥 LiveKit enabled - Configure with env vars:");
-  console.log("   LIVEKIT_API_KEY:", LIVEKIT_API_KEY);
+  console.log("   LIVEKIT_API_KEY:", LIVEKIT_API_KEY ? '[SET]' : '[NOT SET]');
   console.log("   LIVEKIT_URL:", LIVEKIT_URL);
 });
