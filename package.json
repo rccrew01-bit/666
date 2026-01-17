@@ -1,19 +1,20 @@
 {
-  "name": "site-jeux",
+  "name": "livekit-video-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time video chat application powered by LiveKit",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": ["livekit", "video-chat", "webrtc", "real-time"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1",
+    "livekit-server-sdk": "^2.15.0",
     "qrcode": "^1.5.4",
     "socket.io": "^4.8.3"
   }
