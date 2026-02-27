@@ -1,0 +1,8 @@
+
+> site-jeux@1.0.0 start
+> node server.js
+
+🚀 Serveur actif sur http://127.0.0.1:3000
+👀 VISITEUR : ::1
+👀 VISITEUR : ::1
+🎮 JOUEUR : ::1
